@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DARK DATA</title>
+
+	
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/fullpage.css">
+	<link rel="stylesheet" type="text/css" href="css/skeleton.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i,600,600i" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+
+	<div class = "section" >
+	
+			<div id = "header">
+				<a href="#00"><h1 id="mainTitle">Dark Data</h1></a>
+				<p id = "mainDescription">Critical investigations on surveillance, privacy, security, and civics.</p>
+
+				<div class = "nav">
+					<div class = "navItem">
+						<a href ="#00"><h4>00 <br/> An Intro to Dark Data</h4></a>
+					</div>
+					<div class = "navItem">
+						<a href ="#01"><h4>01 <br/> The Infrastucture of Dark Data</h4></a>
+					</div>
+					<div class = "navItem">
+						<a href ="#02"><h4>02 <br/> The Trails We Leave</h4></a>
+					</div>
+					<div class = "navItem">
+						<a href ="#03"><h4 id = "finalNavItem">03 <br/> The Quantified Self</h4></a>
+					</div>
+				</div>
+
+				
+			</div>
+
+			<div id = "tracker">
+				<p id = trackerP>user is idle <br> user is on a macbook pro <br> user is likely male <br> user is moving faster than average <br> user hovered on section 02<br> user clicked on section 02</p>
+				<img src = "eyewhite.png" id = "eye">
+			</div>
+			
+
+		
+
+	</div>
+
+	<div id = "fullpage">
+
+	
+	<div class = "section" id = "introSection" data-anchor = "00">
+		<div class="container">
+			<div class = "row">
+				<!-- <h3 class = "four columns offset-by-three sectionTitle">From The Editors</h2> -->
+			</div>
+		</div>
+	
+	</div>
+
+	<div class = "section" id = "infrastructure" data-anchor = "01">
+	
+	</div>
+
+	<div class = "section" id = "uncertainty" data-anchor = "02">
+	
+	</div>
+
+	<div class = "section" id = "qs" data-anchor = "03">
+	
+	</div>
+
+
+
+
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script type="text/javascript" src = "js/fullpage.js"></script>
+	<script type="text/javascript">
+		
+		new fullpage('#fullpage', {
+			//options here
+			autoScrolling:true,
+			scrollHorizontally: true,
+
+			anchors: ['00', '01', '02', '03']
+		});
+
+	</script>
+	<script src="js/main.js"></script>
+</body>
+</html>
