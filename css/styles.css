@@ -1,0 +1,358 @@
+body {
+	
+	color: black;
+	background-color: black;
+	background-position: center;
+	background-image: url('../images/bg/darkdata2_article.png');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.mainTitle a {
+
+	font-size: 24pt;
+	transition: color 0.7s ease;
+	transition: -webkit-text-stroke-color .6s ease;
+	transition: -webkit-text-stroke-width .6s ease;
+}
+
+.mainTitle a:hover {
+	color: rgba(0,0,0,0);
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white;
+   transition: color .6s ease;
+}
+
+.mainTitleOutline {
+	color: rgba(0,0,0,0);
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white;
+   transition: color .6s ease;
+
+}
+
+.bio {
+	margin-top: 40px;
+	padding-top: 20px;
+	border-top: 1px solid white;
+}
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+::selection {
+  background: #ffe600; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffe600; /* Gecko Browsers */
+}
+
+.articleArea a {
+
+	text-decoration: underline;
+
+}
+
+.articleArea a:hover {
+	color:white;
+	text-decoration: underline;
+	font-style: italic;
+	
+}
+
+
+
+html, body {
+
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+
+
+/* BANDS */
+
+.band {
+
+	padding: 10px 0px;
+	color: white;
+
+}
+
+.band.main {
+	margin-bottom: 40px;
+}
+
+
+.band.header {
+
+	margin-left: 3%;
+	padding-top: 20px;
+	padding-bottom: 0px;
+	margin-bottom: 20px;
+	padding-left: 0px;
+
+}
+
+.band.navigation {
+	/*margin-top: 50px;*/
+	padding-top: 0px;
+	margin-left: 3%;
+	margin-right: 3%;
+	line-height: 1.2;
+
+
+}
+
+
+
+/* masthead stuff*/
+.masthead {
+	text-align: center;
+	font-family: 'IBM Plex Mono', monospace;
+	
+}
+
+.masthead h3 {
+	font-family: 'GT-Super-Text-Black', cursive;
+}
+
+.masthead p {
+	font-size: 1.2em;
+	font-style: italic;
+	margin-bottom: 50px;
+}
+
+.masthead a {
+	text-decoration: underline;
+}
+
+.masthead a:hover {
+	color: white;
+	font-style: italic;
+}
+
+.masthead ul {
+	list-style: none;
+
+}
+
+/* footer (license and about) */
+.about {
+	position: absolute;
+	left: 10px;
+
+	font-family: 'IBM Plex Mono', monospace;
+}
+
+.about:hover{
+	font-style: italic;
+	color: white;
+}
+
+
+.license img {
+
+	position: absolute;
+	right:0px;
+}
+
+
+.bigfoot-footnote__content {
+	color: black;
+}
+
+
+/* NAVIGATION STYLES */
+
+ li {
+
+	margin: 0px;
+}
+
+nav.primary li {
+	display: inline;
+	float: left;
+	position: relative;
+	padding: 10px 0px;
+/*	width: 25%;*/
+}
+
+nav.primary li a {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+
+	/*padding: 0 10px;*/
+
+}
+
+nav.primary li div {
+	display: inline-block;
+    text-decoration: none;
+
+ /*   padding: 0 10px;*/
+}
+
+
+
+nav.primary li a:hover {
+	
+	
+	font-style: italic;
+
+}
+
+.sectionSelected {
+	font-style: italic;
+}
+
+
+nav {
+
+	
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+
+}
+
+
+/* ARTICLE TITLES */
+
+.articleTitle {
+
+}
+
+h3 {
+
+	font-size: 23px;
+
+}
+
+.articleArea {
+
+	margin: 0px 0px 30px 30px;
+	padding:10px;
+
+}
+
+.imgRow {
+	padding-bottom: 40px;
+
+}
+
+
+.authorInfo {
+	margin-top: 50px;
+	padding-top:20px;
+	color: grey;
+	border-top: 1px solid white;
+}
+
+.authorName {
+	color: white;
+
+}
+
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.blockQuote {
+	padding-left: 20px;
+	font-style: italic;
+}
+
+
+
+.footnotes {
+	/*display: none;*/
+}
+
+
+h2 {
+
+	padding-right: 20px;
+
+}
+
+
+
+
+#descrip {
+	padding-left: 0px;
+	/*width: 300px;*/
+}
+
+
+
+.bigfoot-footnote {
+	/*color: black;*/
+}
+
+
+.bigfoot-footnote a {
+	color: #0000ff;
+}
+
+
+
+
+.articleList .row {
+	width: 90%;
+	border-top: 1px solid white;
+	/*margin: 30px 0px;*/
+	/*padding-bottom: 30px;*/
+}
+.articleList .row:hover {
+	
+	border-top: 1px dotted white;
+	/*margin: 30px 0px;*/
+	/*padding-bottom: 30px;*/
+}
+
+
+.articleHeading {
+	margin-bottom: 40px;
+}
+
+.references {
+	margin-top: 50px;
+	border-top: 1px solid white;
+	padding-top: 30px;
+	
+}
+
+.references h3 {
+	font-style: italic;
+}
+
+.articleList a {
+	color: white;
+	transition: -webkit-text-stroke-color .6s ease;
+	transition: -webkit-text-stroke-width .6s ease;
+
+}
+
+.articleList a:hover {
+
+	color: rgba(0,0,0,0);
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white;
+   transition: color .6s ease;
+}
+
+.full-width-container {
+width: 100%;
+max-width: 100%;
+clear: both;0 auto;
+}
+
+
